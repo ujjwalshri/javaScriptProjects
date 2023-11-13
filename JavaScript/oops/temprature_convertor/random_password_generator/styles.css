@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:firebrick
+}
+div{
+    height: 100px;
+    width: 100%;
+    background-color: #675667;
+    border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px;
+    color:rgb(237, 229, 229);
+}
+
+#button{
+    height: 20px;
+    width: 100px;
+  background-color: green;
+  border-radius: 20%;
+  
+}

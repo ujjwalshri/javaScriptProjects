@@ -1,0 +1,19 @@
+
+*{
+  text-align: center;
+}
+#ans{
+  background-color: blue;
+  color:white;
+  height: 140px;
+  width: 100%;
+  text-align: center;
+  padding : 40px;
+  font-size: 50px;
+}
+button{
+  height: 40px;
+  width: 80px;
+  background-color: red;
+  color:white;
+}
