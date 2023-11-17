@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/56035b4fa5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="buttons">
+    <button onclick="Notification(submit)">submit</button>
+    <button onclick="Notification(error)">error</button>
+    <button onclick="Notification(invalid)">invalid</button>
+  </div>
+  <div class="toasts-box">
+
+  </div>
+ <script>
+    let toasts = document.querySelector(".toasts-box");
+     let submit = " Submitted successfully";
+     let error= "Error 404";
+     let invalid = "invalid stuff";
+  function Notification(msg){
+    let toast = document.createElement('div');
+    toast.classList="toast";
+    toast.innerHTML=msg;
+    toasts.appendChild(toast);
+   
+   
+
+    setTimeout(()=>{
+     toast.remove();
+    },4000)
+
+  }
+
+ </script>
+    
+</body>
+</html>
